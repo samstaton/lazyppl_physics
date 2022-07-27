@@ -3,8 +3,7 @@
 {-# LANGUAGE MultiParamTypeClasses #-}
 {-# LANGUAGE TemplateHaskell       #-}
 
--- try to implement 2-d physics example in Sam Staton's OPLSS 2019
--- course within LazyPPL
+-- try to implement 2-d physics example in Sam Staton's OPLSS 2019 course in LazyPPL
 
 
 module Physics where
@@ -114,8 +113,9 @@ model = do
   return bumpers
 
 test3 = do
-  -- first parameter is should be 1/dimension
-  samples <- mh 0.33 model -- OPLSS/used MHMOnadLog.hs
+  -- mh1 is single-site mh
+  -- what will the first parameter of mh be for sigle site? 1/dimension
+  samples <- mh1 model -- OPLSS/used MHMOnadLog.hs
   -- a non-MH simulation finds a solution after ~1000 steps
   traceShowM $ findIndex (\(_,w) -> w > 1) samples
   let Just (bumpers,weight) = find (\(_,w) -> w > 1) samples
