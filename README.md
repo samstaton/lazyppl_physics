@@ -1,6 +1,6 @@
 ## 2d physics simulation in LazyPPL
 
-Attempt to add physics simulation as an example of lazyppl
+Attempt to add physics simulation as an example of LazyPPL
 
 See the original file at Sam Staton's OPLSS course [[link]](https://www.cs.uoregon.edu/research/summerschool/summer19/topics.php#Staton)
 
