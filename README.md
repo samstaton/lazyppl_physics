@@ -18,3 +18,7 @@ This may take some time (>1 hour) if it is your first time ever using stack.
 
 To run, type
 ``stack run`` or ``stack run physics-exe``
+
+## Note
+
+The original OPLSS sample code fails to compile in macOS (at least my labtop).  A similar problem is seen [here](https://github.com/bravit/hid-examples/issues/7). LazyPPL switched to use [matplotlib](https://hackage.haskell.org/package/matplotlib) in their development. A similar problem is also seen in other haskel probablistic programming tutorials ([like this one](https://github.com/ccshan/prob-school)).
