@@ -3,8 +3,8 @@ title: Inference over a 2D physics model
 ---
 
 One advantage of probabilistic programming in a general purpose language is that we can import existing libraries as part of our models.
-Here we follow an example due to the Anglican team with a a simple 2d physics problem based on the Chipmunk library.
-For the Anglican version see the [Machine Learning Summer School](https://bitbucket.org/probprog/mlss2015/src/master/) or [the KAIST lecture course](https://github.com/hongseok-yang/probprog19/blob/master/Lectures/Lecture4/PhysicsLec4.clj).
+Here we follow an example from the Anglican team with a simple 2d physics problem based on the Chipmunk library.
+For the Anglican example see the [Machine Learning Summer School](https://bitbucket.org/probprog/mlss2015/src/master/) or [the KAIST lecture course](https://github.com/hongseok-yang/probprog19/blob/master/Lectures/Lecture4/PhysicsLec4.clj).
 For more advanced physics simulations in probabilistic programming, see [PPX](https://iris-hep.org/projects/ppx.html). 
 
 Thanks also to [Alexander Bai](https://github.com/ahuoguo/lazyppl_physics) for initially adapting the Haskell implementation in Sam's [OPLSS course](https://www.cs.uoregon.edu/research/summerschool/summer19/topics.php#Staton) to LazyPPL.
