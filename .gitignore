@@ -2,3 +2,4 @@
 /.stack-work
 *.lock
 lazyppl-physics.cabal
+/website
