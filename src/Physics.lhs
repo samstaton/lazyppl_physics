@@ -66,7 +66,7 @@ We set up the Apecs Physics Chipmunk bindings:
 makeWorld "World" [''Physics, ''Camera]
 \end{code}
 
-This a routine to initialize the world a ball, a cup, and bumpers of given position and angle; we return the ball:
+This a routine to initialize the world with a ball, a cup, and bumpers of given position and angle; we return the ball:
 \begin{code}
 initialize bumpers = do
   set global ( Camera (V2 0 1) 60
@@ -278,7 +278,7 @@ runModelBruteForce n trajfile = do
 \end{code}
 </details>
 
-Running the model with a brute-force search takes many more samples than Metropolis-Hastings. In this example there were 3343 before the ball landed in the cup. Here are 4000 samples:
+Running the model with a brute-force search takes many more samples than Metropolis-Hastings. In the following illustration there were 3343 samples before the ball landed in the cup. Here are 4000 samples:
 
 ![](images/physics5.svg)
 
