@@ -10,14 +10,12 @@ import Apecs.Physics.Gloss
 
 import Graphics.Gloss.Export (exportPicturesToGif,GifLooping(LoopingForever))
 
-import Control.Monad (replicateM, when)
+import Control.Monad (replicateM, when) 
 
 import LazyPPL
 import LazyPPL.Distributions (uniformbounded, normalPdf)
 
 import Numeric.Log(Log(Exp),ln)
-import Numeric.MathFunctions.Constants (m_sqrt_2)
-import Numeric.SpecFunctions (erf,invErfc)
 import System.Random (setStdGen, mkStdGen)
 import Graphics.Matplotlib hiding (density)
 

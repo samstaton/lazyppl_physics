@@ -20,32 +20,9 @@ description:         Please see the README on GitHub at <https://github.com/gith
 dependencies:
 - base >= 4.7 && < 5
 - lazyppl
-- math-functions
-- transformers
-- mtl
-- array
-- vector
 - random
-- statistics
-- bytestring
-- cassava
-- gamma
 - log-domain
-- colour
-- containers
-- data-default-class
-- lens
-# - debug
-- monad-extras
-- lazyio
-- spoon
-- Histogram
-- ghc-heap
-- monad-loops
 - matplotlib
-- deepseq
-- aeson
-- bytestring
 - apecs
 - apecs-physics
 - apecs-gloss
@@ -53,7 +30,7 @@ dependencies:
 - gloss-export
 
 library:
-  source-dirs: src
+  source-dirs: lib 
 
 executables:
   physics-exe:
