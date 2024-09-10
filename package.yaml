@@ -34,7 +34,7 @@ library:
 
 executables:
   physics-exe:
-    main:                Physics.hs
+    main:                Physics.lhs
     source-dirs:         src
     ghc-options:
     - -threaded
