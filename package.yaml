@@ -1,4 +1,4 @@
-name:                lazyppl
+name:                lazyppl-physics
 version:             0.2.0.0
 license:             MIT
 author:              "Sam Staton and others"
@@ -7,7 +7,6 @@ copyright:           "2021 Sam Staton and others"
 
 extra-source-files:
 - README.md
-- ChangeLog.md
 
 # Metadata used when publishing your package
 # synopsis:            Lazy Probabilistic Programming
@@ -20,6 +19,8 @@ description:         Please see the README on GitHub at <https://github.com/gith
 
 dependencies:
 - base >= 4.7 && < 5
+- lazyppl
+- math-functions
 - transformers
 - mtl
 - array
@@ -49,6 +50,7 @@ dependencies:
 - apecs-physics
 - apecs-gloss
 - gloss
+- gloss-export
 
 library:
   source-dirs: src
