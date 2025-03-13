@@ -35,7 +35,7 @@ library
   default-language: Haskell2010
 
 executable physics-exe
-  main-is: Physics.hs
+  main-is: Physics.lhs
   other-modules:
       Paths_lazyppl_physics
   hs-source-dirs:

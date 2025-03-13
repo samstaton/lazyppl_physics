@@ -3,3 +3,6 @@
 *.lock
 lazyppl-physics.cabal
 /website
+lib/.\#none.txt
+stack.yaml.lock
+stack.yaml.lock
